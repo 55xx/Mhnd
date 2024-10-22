@@ -1,0 +1,44 @@
+getgenv().Devolution = {
+    ['Aim Bot'] = {
+        ['Enabled'] = true,
+        ['Prediction'] = 0.177,
+        ['Easing Style']
+        ['Smoothing'] = {
+            ['Enabled'] = true,
+            ['Smoothness'] = 0.01,
+        },
+        ['Shake'] = {
+          ['ShakeValue'] = 0,
+           ['AutoPred'] = false, 
+          }, 
+          ['Field Of View'] = {
+            ['FOVSize'] = 100,
+            ['ShowFOV'] = false,
+       }, 
+        ['Aim Parts'] = {
+            ['Hit Part'] = 'UpperTorso',
+            ['Air'] = {
+                ['Free Falling'] = 'UpperTorso',
+                ['Jump'] = 'Head'
+            }
+        },
+        ['Offsets'] = {
+            ['Jump'] = {
+                ['Value'] = 0.25,
+                ['Enabled'] = true
+            },
+            ['Free Falling'] = {
+                ['Enabled'] = true,
+                ['Value'] = -1.5
+            }
+        },
+        ['Check'] = {
+            ['KOCheck'] = true,
+            ['WallCheck'] = true
+        },
+         ['Tools'] = {
+           ['Camlock button'] = true,
+           ['Camlock Tool'] = false,
+        }
+    }
+}
